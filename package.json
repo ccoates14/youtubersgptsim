@@ -1,0 +1,25 @@
+{
+    "name": "openai-nodejs-app",
+    "version": "1.0.0",
+    "description": "A basic Node.js app that uses the OpenAI API to generate text.",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --env-file=.env app.js"
+    },
+    "keywords": [
+        "openai",
+        "nodejs",
+        "api",
+        "text-generation"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.1.4",
+        "express": "^4.21.2",
+        "json": "^11.0.0",
+        "openai": "^4.76.0"
+    }
+}
